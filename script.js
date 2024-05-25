@@ -1,4 +1,11 @@
 function firstChar(text) {
+	text=text.trim()
+	if (text==""){
+		return ""
+	}
+	else{
+		return text.charAt(0)
+	}
   // your code here
 }
 
